@@ -1,7 +1,4 @@
 'use strict';
-//const events = require( './events.js' );
-// require('../system.js');
-// require('../Manager/manager.js');
 
 const io = require('socket.io-client');
 const socket = io.connect('http://localhost:4000');
